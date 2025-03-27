@@ -21,3 +21,6 @@ By running this project, it initialises a local SQL database to hold data which 
    
 7) With the backend setup, we can now run the project which will run the Swagger API on localhost:7058\
    The backend is now up and running and you can even test the API calls directly without the frontend using Swagger.
+
+8) If you have already setup the frontend using this repo: https://github.com/isaacshee/todolist-react.git \
+   Then you are ready to use the Todo List!
