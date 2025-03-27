@@ -14,8 +14,8 @@ By running this project, it initialises a local SQL database to hold data which 
    
 5) Open the Package Manager Console in VS by navigating to the top tool bar and clicking Tools > NuGet Package Manager > Package Manager Console
  
-6) We need to run two commands in order to run the migration tool, in the terminal, run:
-   i) `Add-Migration "InitialCreate"`
+6) We need to run two commands in order to run the migration tool, in the terminal, run:\
+   i) `Add-Migration "InitialCreate"`\
    ii) `Update-Database`\
    If all went accordingly, you should a new database in your SQL server called 'TodoListRESTDb' with two tables, EFMigrationsHistory and TodoItems
    
