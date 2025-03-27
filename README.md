@@ -8,7 +8,7 @@ By running this project, it initialises a local SQL database to hold data which 
 2) Right click the TodoListRESTAPI project and click `Set as Startup Project`
 3) Navigate to the `appsettings.json` file and change the Server name to your local SQL database name, by default it was set to isaacshee\\sqlexpress
      `"DevConnection": "Server = <your sql server name>; Database=TodoListRESTDb; Trusted_Connection=True; MultipleActiveResultSets=True; Encrypt=False;"`
-   This is needed in order to initialise the code first database via EntityFramework Core Migration, in order to store data
+   <br>This is needed in order to initialise the code first database via EntityFramework Core Migration, in order to store data
 4) Open the Package Manager Console in VS by navigating to the top tool bar and clicking Tools > NuGet Package Manager > Package Manager Console
 5) We need to run two commands in order to run the migration tool, in the terminal, run:
    i) `Add-Migration "InitialCreate"`
