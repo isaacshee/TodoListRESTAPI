@@ -3,7 +3,7 @@
 This project is the second part of my todo list app.
 By running this project, it initialises a local SQL database to hold data which can be interacted with via API calls in the backend solution.
 
-##Steps to run
+## Steps to run
 1) Open the project in Visual Studio
    
 2) Right click the TodoListRESTAPI project and click `Set as Startup Project`
