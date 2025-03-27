@@ -17,7 +17,7 @@ By running this project, it initialises a local SQL database to hold data which 
 6) We need to run two commands in order to run the migration tool, in the terminal, run:\
    i) `Add-Migration "InitialCreate"`\
    ii) `Update-Database`\
-   If all went accordingly, you should a new database in your SQL server called 'TodoListRESTDb' with two tables, EFMigrationsHistory and TodoItems
+   If all went accordingly, you should have a new database in your SQL server called 'TodoListRESTDb' with two tables, EFMigrationsHistory and TodoItems
    
 7) With the backend setup, we can now run the project which will run the Swagger API on localhost:7058\
    The backend is now up and running and you can even test the API calls directly without the frontend using Swagger.
