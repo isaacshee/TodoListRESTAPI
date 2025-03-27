@@ -15,7 +15,7 @@ namespace TodoListRESTAPI.Controllers
             _todoItemContext = todoItemContext;
         }
 
-        //ISAAC - GET API that returns all todo items in the list
+        //ISAAC - GET endpoint that returns all todo items in the list
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
@@ -28,7 +28,7 @@ namespace TodoListRESTAPI.Controllers
             return await _todoItemContext.TodoItems.ToListAsync();
         }
 
-        //ISAAC - GET API that returns one todo item based on id
+        //ISAAC - GET endpoint that returns one todo item based on id
         [HttpGet("{id}")]
         public async Task<ActionResult<TodoItem>> GetTodoItem(int id)
         {
@@ -52,7 +52,7 @@ namespace TodoListRESTAPI.Controllers
             }
         }
 
-        //ISAAC - POST API that inserts one todo item
+        //ISAAC - POST endpoint that inserts one todo item
         [HttpPost]
         public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoitem) 
         {
@@ -64,7 +64,7 @@ namespace TodoListRESTAPI.Controllers
             return CreatedAtAction("GetTodoItem", new {id = todoitem.ID}, todoitem);
         }
 
-        //ISAAC - PUT API that edits one todo item
+        //ISAAC - PUT endpoint that edits one todo item
         [HttpPut("{id}")]
         public async Task<ActionResult> PutTodoItem(int id, TodoItem todoitem)
         {
@@ -89,7 +89,7 @@ namespace TodoListRESTAPI.Controllers
             return NoContent();
         }
 
-        //ISAAC - DELETE API that removes one specified todo item
+        //ISAAC - DELETE endpoint that removes one specified todo item
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteTodoItem(int id) 
         {
