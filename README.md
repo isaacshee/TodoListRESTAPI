@@ -3,6 +3,10 @@
 This project is the second part of my todo list app.
 By running this project, it initialises a local SQL database to hold data which can be interacted with via API calls in the backend solution.
 
+## Requirements
+1) Visual Studio: https://visualstudio.microsoft.com/
+2) SQL Server: https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN
+
 ## Steps to run
 1) Open the project in Visual Studio
    
